@@ -1,0 +1,20 @@
+Package: m6APrediction
+Title: Predict m6A RNA Methylation Sites from Sequence Features
+Version: 1.0.0
+Depends: R (>= 3.5.0)
+Imports:
+    dplyr,
+    caret,
+    ggplot2,
+    tibble,
+    readr,
+    randomForest
+Authors@R: 
+    person("Yiming.Zhou", email = "Yiming.Zhou23@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: A lightweight R package that trains and applies machine-learning
+    models to predict N6-methyladenosine (m6A) modification sites from
+    RNA-derived sequence and genomic features.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
